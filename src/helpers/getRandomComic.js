@@ -1,7 +1,7 @@
 export const getRandomComic = async (randomID) => {
   try {
-    const url = `http://xkcd.com/${randomID}/info.0.json`;
-
+    //const url = `http://xkcd.com/${randomID}/info.0.json`;
+    const url = `https://xkcd.now.sh/?comic=${randomID}`
     const resp = await fetch(url);
     const data = await resp.json();
     return data;
