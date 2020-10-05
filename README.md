@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Maneras de ingresar a la APP
+
+## Forma 1
+
+Ingresar a la URL https://ejbarrera0614.github.io/RandomComic/
+
+## Forma 2
+- Descargar el proyecto, ya sea en zip o clonando el repositorio
+- Abrir la consola de comandos y ubicarse en el path del proyecto donde se haya extraído o clonado
+- Ejecutar "npm install", esperar que instale dependencias, una vez términe ejecutar "npm start"
+- ingresar a [http://localhost:3000] desde un navegador
 
 ## Available Scripts
 
