@@ -16,4 +16,5 @@ export const useFetchComic = () => {
     });
   }, []);
 
+  return state;
 };

@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const ComicImgItem = ({ img, alt }) => {
+const ComicImgItem = ({ img, alt, title }) => {
   return (
-    <div>
+    <>
+      {/* <h2>{title}</h2> */}
       <img src={img} alt={alt} />
-    </div>
+    </>
   );
 };
 

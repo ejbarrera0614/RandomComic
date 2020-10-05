@@ -3,6 +3,106 @@
   font-size: 1.2rem;
 }
 
+html, body, #root{
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  padding: 70px;
+  background-color: rgb(18, 18, 18);
+  color: rgb(255, 255, 255);
+  font-family: interface, "Helvetica Neue", helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h2, h3{
+  color: #fff;
+  margin: 0;
+  padding: 1.2rem;
+}
+
+p {
+  margin: 0;
+}
+
+p.clasificacion {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: fit-content;
+}
+
+p.clasificacion input {
+  position: absolute;
+  top: -100px;
+}
+
+p.clasificacion label {
+  float: right;
+  color: #c1bfbf;
+  font-size: 2.5rem;
+  font-weight: 1000;
+}
+
+p.clasificacion label:hover,
+p.clasificacion label:hover ~ label,
+p.clasificacion input:checked ~ label {
+  color: #dd4;
+}
+
+
+.comicContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listComicsRated{
+  display: flex;
+  justify-content: start;
+  height: 315px;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.listComicsRated div {
+  padding: 15px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.itemListComic {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: auto;
+}
+
+.itemListComic img {
+  height: 75px;
+  width: auto;
+}
+
+
+p.clasificado{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: fit-content;
+}
+
+p.clasificado input {
+  position: absolute;
+  top: -100px;
+}
+
+p.clasificado label {
+  float: right;
+  color: #c1bfbf;
+}
+
+p.clasificado input:checked ~ label {
+  color: #dd4;
 }

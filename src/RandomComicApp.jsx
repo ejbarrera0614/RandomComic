@@ -7,7 +7,7 @@ const RandomComicApp = () => {
 
     return (
         <>
-            <h3>Comic App</h3>
+            <h3>Comic Rate App</h3>
             <ComicContainer />
         </>
     )
