@@ -5,6 +5,7 @@
 Ingresar a la URL https://ejbarrera0614.github.io/RandomComic/
 
 ## Forma 2
+- Se debe tener instalado NodeJS el cual se puedes descargar desde aquí https://nodejs.org/es/download/
 - Descargar el proyecto, ya sea en zip o clonando el repositorio
   *Zip: https://github.com/ejbarrera0614/RandomComic/archive/main.zip
   *Git: https://github.com/ejbarrera0614/RandomComic.git
